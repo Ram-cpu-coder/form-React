@@ -5,8 +5,8 @@ const LoginForm = ()=>{
     return (
         
         <div className = "flex justify-center items-center h-[92dvh]">
-        <form action="" className = "flex justify-center items-center flex-col gap-y-2 border-[0.5px] p-10 rounded border-black">
-            <h1>Form</h1>
+        <form action="" className = "flex justify-center items-center flex-col gap-y-2 border-[0.5px] py-10 px-20 rounded border-black">
+            <h1 className="text-3xl mb-5 font-semibold">Form</h1>
             <div className = "flex justify-center gap-x-2">
             <label htmlFor="Name">Name</label>
             <input type="text" name="name" id="Name" className= "border-[0.5px] rounded border-blue-500" />
