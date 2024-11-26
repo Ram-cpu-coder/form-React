@@ -1,30 +1,19 @@
-import { useState } from 'react'
-import './App.css'
-import LoginForm from './LoginForm'
-import Counter from './counter'
-import SubCounter from './subCounter'
-
-const apiResponse = {
-  name: "Ram Coder",
-  age: 30,
-  gender: "Male"
-}
-
+import { useState } from "react";
+import "./App.css";
+// import LoginForm from "./LoginForm";
+// import Counter from "./counter";
+// import SubCounter from "./subCounter";
+import Calculator from "./Calculator";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [result, setResult] = useState("0.00");
   return (
     <>
-    <div>
-      <LoginForm apiResponse={{name: apiResponse.name, age: apiResponse.age}}/>
-    </div>
-    <div>
-      <Counter/>
-      <SubCounter/>
-    </div>
-    
+      <div>
+        <Calculator result={result} setResult={setResult} />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
