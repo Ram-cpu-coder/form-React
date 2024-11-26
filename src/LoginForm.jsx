@@ -3,8 +3,10 @@ import Greeting from "./greeting";
 import DataPassing from "./dataPassing";
 
 
-const LoginForm = ({name, age})=>{
+const LoginForm = ({apiResponse})=>{
 
+
+    const {name, age} = apiResponse
     return (
         
         <div className = "flex justify-center flex-col items-center h-[92dvh]">

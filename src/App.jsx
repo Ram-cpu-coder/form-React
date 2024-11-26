@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import LoginForm from './LoginForm'
+import Counter from './counter'
+import SubCounter from './subCounter'
 
 const apiResponse = {
   name: "Ram Coder",
@@ -15,6 +17,10 @@ function App() {
     <>
     <div>
       <LoginForm apiResponse={{name: apiResponse.name, age: apiResponse.age}}/>
+    </div>
+    <div>
+      <Counter/>
+      <SubCounter/>
     </div>
     
     </>
