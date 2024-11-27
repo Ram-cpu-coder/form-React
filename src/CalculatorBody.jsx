@@ -20,28 +20,28 @@ const CalculatorBody = ({ setResult }) => {
     <>
       <ButtonRed btn="AC" display={display} />
 
-      <ButtonRed btn="C" />
-      <ButtonYellow btn="%" />
-      <ButtonYellow btn="/" />
+      <ButtonRed btn="C" display={display} />
+      <ButtonYellow btn="%" display={display} />
+      <ButtonYellow btn="/" display={display} />
 
-      <ButtonYellow btn="7" />
-      <ButtonYellow btn="8" />
-      <ButtonYellow btn="9" />
-      <ButtonYellow btn="*" />
+      <ButtonYellow btn="7" display={display} />
+      <ButtonYellow btn="8" display={display} />
+      <ButtonYellow btn="9" display={display} />
+      <ButtonYellow btn="*" display={display} />
 
-      <ButtonYellow btn="4" />
-      <ButtonYellow btn="5" />
-      <ButtonYellow btn="6" />
-      <ButtonYellow btn="-" />
+      <ButtonYellow btn="4" display={display} />
+      <ButtonYellow btn="5" display={display} />
+      <ButtonYellow btn="6" display={display} />
+      <ButtonYellow btn="-" display={display} />
 
-      <ButtonYellow btn="1" />
-      <ButtonYellow btn="2" />
-      <ButtonYellow btn="3" />
-      <ButtonYellow btn="+" />
+      <ButtonYellow btn="1" display={display} />
+      <ButtonYellow btn="2" display={display} />
+      <ButtonYellow btn="3" display={display} />
+      <ButtonYellow btn="+" display={display} />
 
-      <ButtonYellow btn="0" />
-      <ButtonYellow btn="." />
-      <ButtonYellow btn="=" />
+      <ButtonYellow btn="0" display={display} />
+      <ButtonYellow btn="." display={display} />
+      <ButtonYellow btn="=" display={display} />
     </>
   );
 };
